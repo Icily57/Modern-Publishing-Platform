@@ -1,0 +1,45 @@
+.HeaderWrapper {
+  background: linear-gradient(
+    hsl(13, 100%, 72%),
+    hsl(353, 100%, 62%)
+  );
+  color: hsl(0, 0%, 100%);
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.HeaderContent {
+  margin: 0 auto;
+  max-width: 800px;
+  h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+  }
+  p {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 300;
+  }
+}
+
+.ButtonGroup {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+  }
+  .start {
+    background: hsl(0, 0%, 100%);
+    color: hsl(208, 49%, 24%);
+  }
+  .learn {
+    background: transparent;
+    border: 1px solid hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 100%);
+  }
+}

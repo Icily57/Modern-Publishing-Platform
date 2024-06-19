@@ -1,0 +1,31 @@
+.FooterWrapper {
+  background: hsl(240, 10%, 16%);
+  color: hsl(240, 2%, 79%);
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.FooterContent {
+  max-width: 800px;
+  margin: 0 auto;
+  h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+  }
+}
+
+.FooterLinks {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  div {
+    text-align: left;
+  }
+  a {
+    display: block;
+    color: hsl(240, 2%, 79%);
+    text-decoration: none;
+    margin: 0.5rem 0;
+  }
+}
